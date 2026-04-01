@@ -62,6 +62,7 @@ A traveling wave must satisfy $y(x,t) = f(x \pm vt)$.
 ---
 
 ![alt text](images/your_image.png)
+
 ## colab 
 
    [problem](https://colab.research.google.com/drive/11P1lymcfFFfofseBauwDwxRBbWmhnkkq?usp=sharing)
