@@ -82,3 +82,23 @@ Based on the uploaded graph, there are three distinct damping regimes:
 **Graph Analysis:**
 - **Left Graph (Position vs Time):** Shows how the position decays over time according to $x(t) = A e^{-\gamma t} \cos(\omega t + \phi)$.
 - **Right Graph (Phase Portrait):** Illustrates the relationship between velocity $v$ and position $x$. The inward spiral indicates the loss of energy as the system approaches equilibrium.
+
+### 10. Animation: Wave Sources
+
+![Sönümlü Osilatör](images/solutionten.png)
+
+### 10. Wave Interference and Superposition
+
+Wave interference occurs when two or more waves overlap in the same medium. According to the **Principle of Superposition**, the resultant displacement at any point is the algebraic sum of the individual displacements.
+
+The general equation for the superposition of multiple point sources is:
+$$u(\vec{r}, t) = \sum_{i} \frac{A}{|\vec{r} - \vec{r}_{0,i}|^\alpha} \sin(k|\vec{r} - \vec{r}_{0,i}| - \omega t)$$
+
+#### Types of Interference:
+1. **Constructive Interference:** Occurs when waves are in phase. The crests align with crests, resulting in a maximum amplitude.
+   - Condition: $\Delta \phi = 2n\pi$ or path difference $\Delta L = n\lambda$.
+2. **Destructive Interference:** Occurs when waves are $180^\circ$ out of phase. Crests align with troughs, resulting in a minimum or zero amplitude.
+   - Condition: $\Delta \phi = (2n + 1)\pi$ or path difference $\Delta L = (n + \frac{1}{2})\lambda$.
+
+**Visual Analysis:**
+The interference pattern creates "fringes" or regions of high and low intensity. In the provided simulation, the bright areas represent constructive interference, while the dark areas represent destructive interference.
